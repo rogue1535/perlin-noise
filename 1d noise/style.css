@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display:block;
+}
+
+html {
+  background-color: #10102f;
+}
+
+.slidercontainer {
+  width: 50%;
+}
+
+.slider {
+  width: 40%;
+}
