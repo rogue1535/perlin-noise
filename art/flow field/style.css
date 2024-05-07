@@ -1,0 +1,27 @@
+html, body {
+  background-color: rgb(34, 33, 33);
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.modifiers {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.slidecontainer {
+  width: 230px;
+  display:flex;
+  justify-content:flex-end;
+}
+.slidertext {
+  color: #d4d4d4;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+}

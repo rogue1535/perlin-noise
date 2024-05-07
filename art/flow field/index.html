@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    
+
+    <script src="libraries/p5.min.js"></script>
+  </head>
+
+  <body>
+    
+    <div class="modifiers" id="modifiers">
+      
+      
+        <div class="slidecontainer">
+        <p class="slidertext">rotation speed: </p> 
+        <input type="range" min="0" max="100" value="50" class="slider" id="rotationspeed" > 
+        </div>
+        <div class="slidecontainer">
+        <p class="slidertext">alpha:</p> 
+        <input type="range" min="1" max="100" value="40" class="slider" id="alpha"> 
+      </div>
+
+        <div class="slidecontainer">
+        <p class="slidertext">stroke:</p> 
+        <input type="range" min="1" max="200" value="10" class="slider" id="stroke"> 
+      </div>
+
+
+      <div class="slidecontainer">
+        <p class="slidertext">density:</p> 
+        <input type="range" min="20" max="200" value="30" class="slider" id="density" >
+      </div>
+
+      <div class="slidecontainer">
+        <p class="slidertext">noise detail:</p> 
+        <input type="range" min="1" max="16" value="1" class="slider" id="ndetail">
+      </div>
+
+
+      <div class="slidecontainer">
+        <p class="slidertext">angle rotation: </p>
+        <input type="range" min="0" max="4" value="0" class="slider" id="angle">
+      </div>
+      <p class="slidertext">click image to reset</p>
+    </div>
+    
+    <script src="sketch.js"></script>
+  </body>
+</html>
